@@ -34,5 +34,4 @@ if st.button("Submit"):
 
     st.write(f"Detected Emotion: {output['emotion']}")
 
-if call:
-    print("1")
+
