@@ -31,4 +31,8 @@ st.write("Enter a sentence to detect the emotion.")
 user_input = st.text_input("Enter emotional sentence here:")
 if st.button("Submit"):
     output = emotion_chain.invoke({"text": user_input})
+
     st.write(f"Detected Emotion: {output['emotion']}")
+
+if call:
+    print("1")
